@@ -1,0 +1,43 @@
+{
+  "name": "svg-animations-react-dream-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sagui build",
+    "dist": "sagui dist",
+    "format": "sagui format",
+    "start": "sagui develop --port 3000",
+    "test": "sagui test",
+    "test:lint": "sagui test:lint",
+    "test:typecheck": "sagui test:typecheck",
+    "test:unit": "sagui test:unit --coverage",
+    "test:unit:watch": "sagui test:unit --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviervia/svg-animations-react-dream-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviervia/svg-animations-react-dream-example/issues"
+  },
+  "homepage": "https://github.com/xaviervia/svg-animations-react-dream-example#readme",
+  "devDependencies": {
+    "prettier": "^1.5.3",
+    "sagui": "^11.0.2"
+  },
+  "dependencies": {
+    "@klarna/higher-order-components": "^3.0.1",
+    "most": "^1.5.1",
+    "ramda": "^0.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-dream": "^0.0.6",
+    "recompose": "^0.24.0",
+    "redux": "^3.7.2",
+    "redux-heat": "^0.3.1"
+  }
+}
